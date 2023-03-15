@@ -1,0 +1,22 @@
+@import 'src/utils/_variables.scss';
+
+.container__services {
+    margin: 5rem 0 10rem 0;
+}
+
+.services__title {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.services__item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10rem;
+}
+
+.services__details {
+    background: $color-grey;
+}
+

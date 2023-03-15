@@ -1,0 +1,17 @@
+
+.home__banner {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5rem;
+
+    animation: homeBannerAnim 1.5s ease 0s 1 normal forwards;
+}
+
+    @keyframes homeBannerAnim {
+        0% {
+            transform: translateY(0);
+        }
+    
+        100% {
+            transform: translateY(-70px);
+        }
+    }

@@ -1,0 +1,22 @@
+@mixin header-shadow {/*Ombre de l'en-tête*/
+    box-shadow:  1px 3px rgba(171, 167, 167, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+@mixin button-shadow {/*Ombre des boutons*/
+    box-shadow:  2px 3px rgba(171, 167, 167, 0.12), 0 10px 20px rgba(0, 0, 0, 0.24);
+}
+
+@mixin button-shadow-hover {/*Ombre accentuée des boutons et des cartes de restaurant*/
+    transition-duration: 0.25s;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+}
+
+@mixin heart-hover {/*Animation du coeur*/
+    cursor: pointer;
+    background: linear-gradient(to bottom left, $color-secondary, $color-primary);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold; 
+    transition: all 500ms ease-in-out;
+}

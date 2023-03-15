@@ -1,0 +1,38 @@
+header {
+    padding-top: 2rem;
+    margin-bottom: 10rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /*Place les éléments sur une même ligne*/
+    justify-content: space-between;
+}
+
+.logo>img {
+    width: 190px;
+    height: 50px;
+}
+
+
+
+
+
+
+/* ====================== MEDIA QUERIES (TABLETTES) ===================== */
+
+
+/* ====================== MEDIA QUERIES (SMARTPHONE) ===================== */
+
+@media screen and (max-width: 600px) {
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+}
